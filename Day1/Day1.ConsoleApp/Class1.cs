@@ -19,6 +19,7 @@
             var answer = ReverseCaptcha.CalculateAnswer(input);
 
             Console.WriteLine($"Answer is: {answer}");
+            Console.ReadLine();
 
             return 0;
         }
