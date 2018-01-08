@@ -13,7 +13,7 @@ namespace Day1.Tests
         // ReSharper disable once InconsistentNaming
         public void With_Input_X_Answer_Is_Y(string input, int expectedAnswer)
         {
-            var actualAnswer = ReverseCaptcha.CalculateAnswer(input);
+            var actualAnswer = InverseCaptcha.CalculateAnswer(input);
 
             Assert.Equal(actualAnswer, expectedAnswer);
         }

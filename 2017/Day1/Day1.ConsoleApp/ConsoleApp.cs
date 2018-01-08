@@ -4,7 +4,7 @@
 
     using Day1.Util;
 
-    public class Class1
+    public class ConsoleApp
     {
         public static int Main(string[] args)
         {
@@ -16,7 +16,7 @@
             }
 
             var input = args[0];
-            var answer = ReverseCaptcha.CalculateAnswer(input);
+            var answer = InverseCaptcha.CalculateAnswer(input);
 
             Console.WriteLine($"Answer is: {answer}");
             Console.ReadLine();

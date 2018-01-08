@@ -4,8 +4,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <ApplicationIcon />
     <OutputType>Exe</OutputType>
-    <StartupObject>Day1.ConsoleApp.Class1</StartupObject>
+    <StartupObject>Day1.ConsoleApp.ConsoleApp</StartupObject>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="StyleCop.Cache" />
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="StyleCop.MSBuild" Version="5.0.0" />
