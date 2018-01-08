@@ -6,9 +6,7 @@ namespace Day2.Tests
 {
     public class ChecksumGeneratorTests
     {
-        private const string Example = @"5 1 9 5
-7 5 3
-2 4 6 8";
+        private const string Example = "5\t1\t9\t5\r\n7\t5\t3\r\n2\t4\t6\t8";
 
         [Theory]
         [InlineData(Example, 18)]
