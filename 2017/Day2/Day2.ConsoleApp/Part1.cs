@@ -3,9 +3,9 @@ using System.Linq;
 
 namespace Day2.ConsoleApp
 {
-    public static class ChecksumGenerator
+    public static class Part1
     {
-        public static int Generate(string input)
+        public static int CalculateAnswer(string input)
         {
             var total = 0;
             var rows = input.Split(new [] { Environment.NewLine }, StringSplitOptions.None).ToList();

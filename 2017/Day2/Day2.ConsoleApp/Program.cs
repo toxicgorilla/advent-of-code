@@ -14,7 +14,7 @@ namespace Day2.ConsoleApp
             }
 
             var input = args[0];
-            var answer = ChecksumGenerator.Generate(input);
+            var answer = Part2.CalculateAnswer(input);
 
             Console.WriteLine($"Answer is: {answer}");
             Console.ReadLine();
