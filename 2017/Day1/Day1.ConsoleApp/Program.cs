@@ -2,9 +2,7 @@
 {
     using System;
 
-    using Day1.Util;
-
-    public class ConsoleApp
+    public class Program
     {
         public static int Main(string[] args)
         {

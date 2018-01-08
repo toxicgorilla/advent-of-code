@@ -19,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Day1.Util\Day1.Util.csproj" />
+    <ProjectReference Include="..\Day1.ConsoleApp\Day1.ConsoleApp.csproj" />
   </ItemGroup>
 
 </Project>

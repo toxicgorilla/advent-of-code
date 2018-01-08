@@ -1,4 +1,4 @@
-﻿namespace Day1.Util
+﻿namespace Day1Part2.ConsoleApp
 {
     public class InverseCaptcha
     {
@@ -11,13 +11,15 @@
             }
 
             var total = 0;
+            var advance = input.Length / 2;
             for (var i = 0; i < input.Length; i++)
             {
                 var currentChar = input[i];
-                var nextCharIndex = i + 1;
-                if (nextCharIndex == input.Length)
+
+                var nextCharIndex = i + advance;
+                if (nextCharIndex >= input.Length)
                 {
-                    nextCharIndex = 0;
+                    nextCharIndex -= input.Length;
                 }
 
                 var nextChar = input[nextCharIndex];
